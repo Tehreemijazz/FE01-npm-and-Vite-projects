@@ -1,0 +1,20 @@
+{
+  "name": "fe01-npm-project",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server . -p 3000 -o",
+    "dev": "http-server . -p 3000 -c-1",
+    "run:file": "node src/index.js",
+    "build": "node scripts/build.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^6.0.1",
+    "dayjs": "^1.11.23"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
